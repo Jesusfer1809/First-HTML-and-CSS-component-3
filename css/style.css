@@ -1,0 +1,307 @@
+/*
+0 - 600px:      Phone
+600 - 900px:    Tablet portrait
+900 - 1200px:   Tablet landscape
+[1200 - 1800] is where our normal styles apply
+1800px + :      Big desktop
+
+$breakpoint arguement choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+
+ORDER: Base + typography > general layout + grid > page layout > components
+
+1em = 16px
+*/
+.component-horizontal-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 80%;
+  border-radius: 7px;
+  overflow: hidden; }
+  @media only screen and (max-width: 84.375em) {
+    .component-horizontal-card {
+      width: 81.5%; } }
+  @media only screen and (max-width: 81.25em) {
+    .component-horizontal-card {
+      width: 83%; } }
+  @media only screen and (max-width: 78.125em) {
+    .component-horizontal-card {
+      width: 84.5%; } }
+  @media only screen and (max-width: 75em) {
+    .component-horizontal-card {
+      width: 86%; } }
+  @media only screen and (max-width: 71.875em) {
+    .component-horizontal-card {
+      width: 87.5%; } }
+  @media only screen and (max-width: 68.75em) {
+    .component-horizontal-card {
+      width: 89%; } }
+  @media only screen and (max-width: 62.5em) {
+    .component-horizontal-card {
+      width: 90.5%; } }
+  @media only screen and (max-width: 59.375em) {
+    .component-horizontal-card {
+      width: 92%; } }
+  @media only screen and (max-width: 56.25em) {
+    .component-horizontal-card {
+      width: 93.5%; } }
+  @media only screen and (max-width: 53.125em) {
+    .component-horizontal-card {
+      width: 95%; } }
+  @media only screen and (max-width: 50em) {
+    .component-horizontal-card {
+      width: 97.5%; } }
+  @media only screen and (max-width: 46.875em) {
+    .component-horizontal-card {
+      width: 99%; } }
+  @media only screen and (max-width: 43.75em) {
+    .component-horizontal-card {
+      grid-template-columns: 100%;
+      grid-template-rows: repeat(2, max-content);
+      width: 80%; } }
+
+.info-box {
+  background-color: #1b1938;
+  padding: 6.5rem;
+  font-family: "Inter", sans-serif;
+  color: white; }
+  @media only screen and (max-width: 84.375em) {
+    .info-box {
+      padding: 6.3rem; } }
+  @media only screen and (max-width: 81.25em) {
+    .info-box {
+      padding: 6.1rem; } }
+  @media only screen and (max-width: 78.125em) {
+    .info-box {
+      padding: 5.9rem; } }
+  @media only screen and (max-width: 75em) {
+    .info-box {
+      padding: 5.7rem; } }
+  @media only screen and (max-width: 71.875em) {
+    .info-box {
+      padding: 5.5rem; } }
+  @media only screen and (max-width: 68.75em) {
+    .info-box {
+      padding: 5.3rem; } }
+  @media only screen and (max-width: 62.5em) {
+    .info-box {
+      padding: 5.1rem; } }
+  @media only screen and (max-width: 59.375em) {
+    .info-box {
+      padding: 4.9rem; } }
+  @media only screen and (max-width: 56.25em) {
+    .info-box {
+      padding: 4.7rem; } }
+  @media only screen and (max-width: 53.125em) {
+    .info-box {
+      padding: 4.5rem; } }
+  @media only screen and (max-width: 50em) {
+    .info-box {
+      padding: 4.3rem; } }
+  @media only screen and (max-width: 46.875em) {
+    .info-box {
+      padding: 4.1rem; } }
+  @media only screen and (max-width: 31.23em) {
+    .info-box {
+      padding: 3.9rem;
+      text-align: center; } }
+  @media only screen and (max-width: 28.125em) {
+    .info-box {
+      padding: 3.7rem;
+      text-align: center; } }
+  .info-box__heading {
+    font-size: 3.7rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 4rem;
+    line-height: 1.2; }
+  .info-box__text {
+    display: inline-block;
+    padding-right: 5rem;
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 1.7;
+    margin-bottom: 7rem; }
+    @media only screen and (max-width: 84.375em) {
+      .info-box__text {
+        padding-right: 4.7rem; } }
+    @media only screen and (max-width: 81.25em) {
+      .info-box__text {
+        padding-right: 4.4rem; } }
+    @media only screen and (max-width: 78.125em) {
+      .info-box__text {
+        padding-right: 4.1rem; } }
+    @media only screen and (max-width: 75em) {
+      .info-box__text {
+        padding-right: 3.9rem; } }
+    @media only screen and (max-width: 71.875em) {
+      .info-box__text {
+        padding-right: 3.6rem; } }
+    @media only screen and (max-width: 68.75em) {
+      .info-box__text {
+        padding-right: 3.3rem; } }
+    @media only screen and (max-width: 62.5em) {
+      .info-box__text {
+        padding-right: 3.1rem; } }
+    @media only screen and (max-width: 59.375em) {
+      .info-box__text {
+        padding-right: 2.9rem; } }
+    @media only screen and (max-width: 56.25em) {
+      .info-box__text {
+        padding-right: 2.7rem; } }
+    @media only screen and (max-width: 53.125em) {
+      .info-box__text {
+        padding-right: 2.5rem; } }
+    @media only screen and (max-width: 50em) {
+      .info-box__text {
+        padding-right: 2.3rem; } }
+    @media only screen and (max-width: 46.875em) {
+      .info-box__text {
+        padding-right: 2.1rem; } }
+    @media only screen and (max-width: 43.75em) {
+      .info-box__text {
+        padding-right: 0; } }
+
+.highlighted {
+  color: #aa5cdb; }
+
+.composition-box {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  font-family: "Inter"; }
+  @media only screen and (max-width: 25em) {
+    .composition-box {
+      grid-template-columns: 100%;
+      grid-template-rows: repeat(3, max-content); } }
+  .composition-box__container {
+    display: flex;
+    flex-flow: column; }
+    @media only screen and (max-width: 25em) {
+      .composition-box__container {
+        margin-bottom: 4rem; } }
+  .composition-box__number {
+    font-weight: 700;
+    font-size: 2.4rem;
+    margin-bottom: 0.5rem; }
+  .composition-box__name {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.75); }
+
+.img-box {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-blend-mode: multiply;
+  background-image: linear-gradient(#aa5cdb, #aa5cdb), url(../images/image-header-desktop.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  @media only screen and (max-width: 43.75em) {
+    .img-box {
+      height: 30rem;
+      grid-row: 1/2;
+      background-position: top;
+      background-size: 100%; } }
+
+/*
+0 - 600px:      Phone
+600 - 900px:    Tablet portrait
+900 - 1200px:   Tablet landscape
+[1200 - 1800] is where our normal styles apply
+1800px + :      Big desktop
+
+$breakpoint arguement choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+
+ORDER: Base + typography > general layout + grid > page layout > components
+
+1em = 16px
+*/
+/*
+0 - 600px:      Phone
+600 - 900px:    Tablet portrait
+900 - 1200px:   Tablet landscape
+[1200 - 1800] is where our normal styles apply
+1800px + :      Big desktop
+
+$breakpoint arguement choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+
+ORDER: Base + typography > general layout + grid > page layout > components
+
+1em = 16px
+*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+  @media only screen and (max-width: 84.375em) {
+    html {
+      font-size: 61.5%; } }
+  @media only screen and (max-width: 81.25em) {
+    html {
+      font-size: 60.5%; } }
+  @media only screen and (max-width: 78.125em) {
+    html {
+      font-size: 59.5%; } }
+  @media only screen and (max-width: 75em) {
+    html {
+      font-size: 58.5%; } }
+  @media only screen and (max-width: 71.875em) {
+    html {
+      font-size: 57.5%; } }
+  @media only screen and (max-width: 68.75em) {
+    html {
+      font-size: 56.5%; } }
+  @media only screen and (max-width: 62.5em) {
+    html {
+      font-size: 55.5%; } }
+  @media only screen and (max-width: 56.25em) {
+    html {
+      font-size: 54.5%; } }
+  @media only screen and (max-width: 53.125em) {
+    html {
+      font-size: 53.5%; } }
+  @media only screen and (max-width: 50em) {
+    html {
+      font-size: 52.5%; } }
+  @media only screen and (max-width: 46.875em) {
+    html {
+      font-size: 51.5%; } }
+  @media only screen and (max-width: 43.75em) {
+    html {
+      font-size: 50.5%; } }
+  @media only screen and (max-width: 37.5em) {
+    html {
+      font-size: 48.5%; } }
+  @media only screen and (max-width: 34.375em) {
+    html {
+      font-size: 47.5%; } }
+
+body {
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #090b1a; }
