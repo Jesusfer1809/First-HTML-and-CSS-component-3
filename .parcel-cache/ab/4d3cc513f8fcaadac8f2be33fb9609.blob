@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="preconnect" href="132c26930cbc47d8a8a9016f5d931651">
+    <link rel="preconnect" href="0aca0d6babe0a53839bd0fb91509cf27" crossorigin="">
+    <link href="01543444fb17fe487389ab244113f0c4" rel="stylesheet">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="a3b8e489c05963fa1cd37592d6b09cd4">
+    <link rel="stylesheet" type="text/css" href="8e67db3a6e3cc08504d72c4abcd93433">
+
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+
+  <body>
+    <div class="component-horizontal-card">
+      <div class="info-box">
+        <h1 class="info-box__heading">
+          Get <span class="highlighted">insights</span> that help your business
+          grow.
+        </h1>
+
+        <p class="info-box__text">
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+
+        <div class="composition-box">
+          <div class="composition-box__container">
+            <span class="composition-box__number">10k +</span>
+
+            <span class="composition-box__name">companies</span>
+          </div>
+
+          <div class="composition-box__container">
+            <span class="composition-box__number">314</span>
+
+            <span class="composition-box__name">templates</span>
+          </div>
+
+          <div class="composition-box__container">
+            <span class="composition-box__number">12M +</span>
+
+            <span class="composition-box__name">queries</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="img-box"></div>
+    </div>
+
+    <!--
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Jesus Rondon</a>.
+    </div>
+
+  --></body>
+</html>
